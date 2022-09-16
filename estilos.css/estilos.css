@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5% ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+   
+    background-size: cover;
+    font-style: italic;
+    padding: 0 0 40px 0;
+    background-image: url(../images/images.jpeg);
+    background-repeat: repeat-x;
+    background-position: center;
+   
+}
+header img{
+    width: 75px;
+
+}
+header ul{
+    position: absolute;
+    top: 10px;
+    right: 10%;
+    display: flex;
+    list-style: none;
+}
+
+header ul a{
+    display: block;
+    padding: 20px;
+    background-color: rgba (255,255,0,5);
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+header ul a:hover{
+    background-color: rgba(142, 21, 21, 0.466);
+    color: white;
+}
+header button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+}
+header button:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+
+}
+ 
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 28px;
+    padding-bottom: 2rem;
+}
+h3{
+    font-size: 18px;
+    text-align: center;
+    margin: 40px 0;
+
+}
+h4{
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
+    position: relative;
+
+}
+h1,h2,h3,h4{
+    font-family: 'Mingzat', sans-serif;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;   
+}
+
+section div{
+    flex-grow: 1;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+
+}
+section div img{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+footer{
+    background-color: green;
+    padding: 20px 0;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icon{
+    width: 5%;
+}
+
+img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+    padding: 10px;
+}
+.hijo{
+    padding: 10px;
+}
