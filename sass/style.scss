@@ -1,0 +1,739 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5% ;*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5% ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+   
+    background-size: cover;
+    font-style: italic;
+    padding: 0 0 40px 0;
+    background-image: url(../images/images.jpeg);
+    background-repeat: repeat-x;
+    background-position: center;
+    margin-top: 50px;
+}
+header img{
+    width: 75px;
+
+}
+header ul{
+    position: absolute;
+    top: 10px;
+    right: 10%;
+    display: flex;
+    list-style: none;
+   
+
+}
+
+header ul a{
+    display: block;
+    padding: 20px;
+    background-color: rgb(165, 161, 165);
+    text-decoration: none;
+    color: rgb(56, 35, 35);
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+header ul a:hover{
+    background-color: rgba(142, 21, 21, 0.466);
+    color: white;
+  
+}
+header button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    width:150px;
+    font-size: 25px;
+
+}
+header button:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+
+}
+ 
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 38px;
+    padding-bottom: 2rem;
+    text-align: end;
+    background-color: rgb(202, 154, 195);
+    color: white;
+    
+}
+h3{
+    text-align: center;
+    margin: 40px 0;
+    font-size: 70px;
+   color: rgb(25, 73, 25);
+   margin-top: 100px;
+
+}
+h4{
+    font-size: 40px;
+    text-align: center;
+    line-height: 24px;
+    padding-bottom: 50px;
+    color: cadetblue;
+}
+
+.contenedor{
+    width: 150%;
+    max-width: 2000px;
+    margin: auto;
+    position: relative;
+
+}
+h1,h2,h3,h4{
+    font-family: 'Mingzat', sans-serif;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;   
+}
+
+section div{
+    flex-grow: 1;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+
+}
+section div img{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+footer{
+    background-color: rgb(164, 126, 152);
+    padding: 20px 0;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: aliceblue;
+    
+}
+
+
+.icon{
+    width: 75px;
+    height: 75px;
+
+}
+
+img{
+    width: 50px;
+    margin-top: 10px;
+}
+.divgradiente{
+    text-align: left;
+    margin: 40px 40px;
+    font-size: 70px;
+   color: rgb(25, 73, 25);
+   margin-top: 100px;
+   font-family: cursive;
+   position: absolute;
+   display: flex;
+   color: black;
+   transform: scale(0.75);
+   padding-right: 10%;
+   
+}
+
+.gradiente{
+    height: 500px;
+    width: 2000px;
+    background: rgb(211,226,165);
+background: radial-gradient(circle, rgba(211,226,165,1) 51%, rgba(232,209,232,1) 100%);
+   margin-left: 380px;
+ 
+}
+.divgradiente:hover{
+    background-color: rgb(248, 45, 26);
+    transition: 10s;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+    padding: 10px;
+}
+.flexcontainer{
+    display: flex;
+    background-color: rgb(222, 180, 219);
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+   margin-bottom: 5%;
+   padding-left: 1%;
+   padding-top: 1%;
+   padding-bottom: 10%;
+}
+
+.hijo{
+    display: block;
+ 
+}
+
+.centerr{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 3fr 1 fr;
+    text-align: center;
+   font-size: 40px;
+   color: rgb(79, 127, 79);
+   font-family: cursive;
+   margin: 5px;
+
+}
+.table{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(58, 69, 50);
+    color: rgb(164, 182, 148);
+    padding-left: 40%;
+    padding-right: 60%;
+    justify-content: space-evenly;
+}
+.cuidados{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.footer{
+    font-size: 55px;
+    font-family: cursive;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 85px;
+    padding-top: 10px;
+    padding-left: 80px;
+    font-family: fantasy;
+
+    
+}
+
+.uno{
+    font-size: 50px;
+    text-align: justify;
+    justify-content: left;
+    padding-top: 50px;
+    margin-top: 60px;
+    padding-left: 100px;
+    background-color: blanchedalmond;
+   font-family: fantasy;
+}
+
+.metodos{
+
+   display: flex;
+
+   font-size: 65px;
+   text-align: justify;
+   padding-left: 5%;
+   padding-right: 5%;
+   margin-top: 5%;
+   background-color:beige;
+    
+}
+
+.reproduccion{
+    font-size: 68px;
+    padding-top: 80px;
+    padding-left: 80px;
+    font-family: fantasy;
+    background-color: bisque;
+    
+}
+
+.repro{
+    border-radius: 80px;
+    padding: 5px;
+    max-height: 100%;
+    height: auto;
+    display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+
+.bs{
+    font-size: 70px;
+    text-align: center;
+    background-color: rgb(130, 41, 112);
+    color: aliceblue;
+    font-family: cursive;
+    position: relative;
+   
+}
+
+h3{
+    grid-area: h3;
+}
+.footer{
+    grid-area: footer;
+}
+.section{
+    grid-area: section;
+}
+.centerr{
+    grid-area: centerr;
+}
+.header{
+    grid-area: header;
+}
+nav{
+    grid-area: nav;
+}
+
+
+
+.grilla{
+    display: grid;
+    grid-template-areas:
+     "nav header header "
+     "centerr section section"
+     "centerr centerr centerr"
+     "footer footer footer";
+}
+
+@media(min-width:500px){
+    .grilla{
+        margin:0;
+        grid-template-areas: 
+       "nav header header "
+       "centerr section section"
+       "centerr centerr centerr"
+       "footer footer footer";
+    }
+}
+
+@media(min-width:760px){
+    .grilla{
+        margin:0;
+        grid-template-areas: 
+       "nav header header "
+       "centerr section section"
+       "centerr centerr centerr"
+       "footer footer footer";
+    }
+    }
+
+    @media(min-width:1024px){
+       body{
+        background-color: rgb(238, 224, 224);
+       }
+       .grilla{
+        color: rgb(34, 15, 51);
+        padding: 1.5em;
+        display: flex;
+        height: auto;
+        margin: 0;
+
+       }
+       img{
+        width: 1000px;
+        height: 80%;
+
+       }
+        }
+       
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+   
+    background-size: cover;
+    font-style: italic;
+    padding: 0 0 40px 0;
+    background-image: url(../images/images.jpeg);
+    background-repeat: repeat-x;
+    background-position: center;
+    margin-top: 50px;
+}
+header img{
+    width: 75px;
+
+}
+header ul{
+    position: absolute;
+    top: 10px;
+    right: 10%;
+    display: flex;
+    list-style: none;
+   
+
+}
+
+header ul a{
+    display: block;
+    padding: 20px;
+    background-color: rgb(165, 161, 165);
+    text-decoration: none;
+    color: rgb(56, 35, 35);
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+header ul a:hover{
+    background-color: rgba(142, 21, 21, 0.466);
+    color: white;
+  
+}
+header button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    width:150px;
+    font-size: 25px;
+
+}
+header button:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+
+}
+ 
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 38px;
+    padding-bottom: 2rem;
+    text-align: end;
+    background-color: rgb(202, 154, 195);
+    color: white;
+    
+}
+h3{
+    text-align: center;
+    margin: 40px 0;
+    font-size: 70px;
+   color: rgb(25, 73, 25);
+   margin-top: 100px;
+
+}
+h4{
+    font-size: 40px;
+    text-align: center;
+    line-height: 24px;
+    padding-bottom: 50px;
+    color: cadetblue;
+}
+
+.contenedor{
+    width: 150%;
+    max-width: 2000px;
+    margin: auto;
+    position: relative;
+
+}
+h1,h2,h3,h4{
+    font-family: 'Mingzat', sans-serif;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;   
+}
+
+section div{
+    flex-grow: 1;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+
+}
+section div img{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+footer{
+    background-color: rgb(164, 126, 152);
+    padding: 20px 0;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: aliceblue;
+    
+}
+
+
+.icon{
+    width: 75px;
+    height: 75px;
+
+}
+
+img{
+    width: 50px;
+    margin-top: 10px;
+}
+.divgradiente{
+    text-align: left;
+    margin: 40px 40px;
+    font-size: 70px;
+   color: rgb(25, 73, 25);
+   margin-top: 100px;
+   font-family: cursive;
+   position: absolute;
+   display: flex;
+   color: black;
+   transform: scale(0.75);
+   padding-right: 10%;
+   
+}
+
+.gradiente{
+    height: 500px;
+    width: 2000px;
+    background: rgb(211,226,165);
+background: radial-gradient(circle, rgba(211,226,165,1) 51%, rgba(232,209,232,1) 100%);
+   margin-left: 380px;
+ 
+}
+.divgradiente:hover{
+    background-color: rgb(248, 45, 26);
+    transition: 10s;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+    padding: 10px;
+}
+.flexcontainer{
+    display: flex;
+    background-color: rgb(222, 180, 219);
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+   margin-bottom: 5%;
+   padding-left: 1%;
+   padding-top: 1%;
+   padding-bottom: 10%;
+}
+
+.hijo{
+    display: block;
+ 
+}
+
+.centerr{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 3fr 1 fr;
+    text-align: center;
+   font-size: 40px;
+   color: rgb(79, 127, 79);
+   font-family: cursive;
+   margin: 5px;
+
+}
+.table{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(58, 69, 50);
+    color: rgb(164, 182, 148);
+    padding-left: 40%;
+    padding-right: 60%;
+    justify-content: space-evenly;
+}
+.cuidados{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.footer{
+    font-size: 55px;
+    font-family: cursive;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 85px;
+    padding-top: 10px;
+    padding-left: 80px;
+    font-family: fantasy;
+
+    
+}
+
+.uno{
+    font-size: 50px;
+    text-align: justify;
+    justify-content: left;
+    padding-top: 50px;
+    margin-top: 60px;
+    padding-left: 100px;
+    background-color: blanchedalmond;
+   font-family: fantasy;
+}
+
+.metodos{
+
+   display: flex;
+
+   font-size: 65px;
+   text-align: justify;
+   padding-left: 5%;
+   padding-right: 5%;
+   margin-top: 5%;
+   background-color:beige;
+    
+}
+
+.reproduccion{
+    font-size: 68px;
+    padding-top: 80px;
+    padding-left: 80px;
+    font-family: fantasy;
+    background-color: bisque;
+    
+}
+
+.repro{
+    border-radius: 80px;
+    padding: 5px;
+    max-height: 100%;
+    height: auto;
+    display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+
+.bs{
+    font-size: 70px;
+    text-align: center;
+    background-color: rgb(130, 41, 112);
+    color: aliceblue;
+    font-family: cursive;
+    position: relative;
+   
+}
+
+h3{
+    grid-area: h3;
+}
+.footer{
+    grid-area: footer;
+}
+.section{
+    grid-area: section;
+}
+.centerr{
+    grid-area: centerr;
+}
+.header{
+    grid-area: header;
+}
+nav{
+    grid-area: nav;
+}
+
+
+
+.grilla{
+    display: grid;
+    grid-template-areas:
+     "nav header header "
+     "centerr section section"
+     "centerr centerr centerr"
+     "footer footer footer";
+}
+
+@media(min-width:500px){
+    .grilla{
+        margin:0;
+        grid-template-areas: 
+       "nav header header "
+       "centerr section section"
+       "centerr centerr centerr"
+       "footer footer footer";
+    }
+}
+
+@media(min-width:760px){
+    .grilla{
+        margin:0;
+        grid-template-areas: 
+       "nav header header "
+       "centerr section section"
+       "centerr centerr centerr"
+       "footer footer footer";
+    }
+    }
+
+    @media(min-width:1024px){
+       body{
+        background-color: rgb(238, 224, 224);
+       }
+       .grilla{
+        color: rgb(34, 15, 51);
+        padding: 1.5em;
+        display: flex;
+        height: auto;
+        margin: 0;
+
+       }
+       img{
+        width: 1000px;
+        height: 80%;
+
+       }
+        }
+       
