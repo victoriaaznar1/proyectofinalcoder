@@ -1,0 +1,40 @@
+
+
+
+header{
+   
+    background-size: cover;
+    font-style: italic;
+    padding: 0 0 40px 0;
+    background-image: url(../images/images.jpeg);
+    background-repeat: repeat-x;
+    background-position: center;
+    margin-top: 50px;
+
+    img{
+        width: 75px;
+    
+        ul{
+            position: absolute;
+            top: 10px;
+            right: 10%;
+            display: flex;
+            list-style: none;
+            a{
+                display: block;
+                padding: 20px;
+                background-color: rgb(165, 161, 165);
+                text-decoration: none;
+                color: rgb(56, 35, 35);
+                text-transform: uppercase;
+                font-size: 30px;
+                a:hover{
+                    background-color: rgba(142, 21, 21, 0.466);
+                    color: white;
+                  
+                }
+            }
+        }
+    }
+
+}

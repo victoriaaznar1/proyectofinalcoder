@@ -1,0 +1,13 @@
+section div img{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    @media(min-width:500px){
+        border: 3px solid gold;
+    }
+    @media(min-width:760px){
+        color: bisque;
+        border: 3px solid salmon;
+    }
+}

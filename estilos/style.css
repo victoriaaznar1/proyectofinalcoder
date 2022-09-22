@@ -5,17 +5,18 @@
 
 html {
   font-size: 62.5%;
-  font-family: Arial, Helvetica, sans-serif;
-}
-html * {
   margin: 0;
   padding: 0;
 }
-html html {
-  font-size: 62.5%;
-  font-family: Arial, Helvetica, sans-serif;
+
+.contenedor {
+  width: 150%;
+  max-width: 2000px;
+  margin: auto;
+  position: relative;
 }
-html header {
+
+header {
   background-size: cover;
   font-style: italic;
   padding: 0 0 40px 0;
@@ -24,17 +25,17 @@ html header {
   background-position: center;
   margin-top: 50px;
 }
-html header img {
+header img {
   width: 75px;
 }
-html header ul {
+header img ul {
   position: absolute;
   top: 10px;
   right: 10%;
   display: flex;
   list-style: none;
 }
-html header ul a {
+header img ul a {
   display: block;
   padding: 20px;
   background-color: rgb(165, 161, 165);
@@ -43,11 +44,30 @@ html header ul a {
   text-transform: uppercase;
   font-size: 30px;
 }
-html header ul a:hover {
+header img ul a a:hover {
   background-color: rgba(142, 21, 21, 0.466);
   color: white;
 }
-html header button {
+
+section div img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+@media (min-width: 500px) {
+  section div img {
+    border: 3px solid gold;
+  }
+}
+@media (min-width: 760px) {
+  section div img {
+    color: bisque;
+    border: 3px solid salmon;
+  }
+}
+
+header button {
   background-color: black;
   color: white;
   border: none;
@@ -57,62 +77,66 @@ html header button {
   width: 150px;
   font-size: 25px;
 }
-html header button:hover {
+
+header button:hover {
   background-color: green;
   color: white;
   cursor: pointer;
 }
-html h1 {
-  font-size: 60px;
+
+h1 {
+  font-size: 0px;
 }
-html h2 {
+
+h2 {
   font-size: 38px;
   padding-bottom: 2rem;
   text-align: end;
   background-color: rgb(202, 154, 195);
   color: white;
 }
-html h3 {
+
+h3 {
   text-align: center;
   margin: 40px 0;
   font-size: 70px;
   color: rgb(25, 73, 25);
   margin-top: 100px;
 }
-html h4 {
+
+h4 {
   font-size: 40px;
   text-align: center;
   line-height: 24px;
   padding-bottom: 50px;
   color: cadetblue;
 }
-html .contenedor {
-  width: 150%;
-  max-width: 2000px;
-  margin: auto;
-  position: relative;
-}
-html h1, html h2, html h3, html h4 {
+
+h1, h2, h3, h4 {
   font-family: "Mingzat", sans-serif;
 }
-html section {
+
+section {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
-html section div {
+
+section div {
   flex-grow: 1;
   max-width: 33.33%;
   box-sizing: border-box;
   padding: 15px;
 }
-html section div img {
+
+section div img {
   display: block;
   margin: auto;
   max-width: 100%;
   height: auto;
 }
-html footer {
+
+footer {
   background-color: rgb(164, 126, 152);
   padding: 20px 0;
   margin-top: 100px;
@@ -124,45 +148,48 @@ html footer {
   justify-content: space-evenly;
   color: aliceblue;
 }
-html .icon {
+
+.icon {
   width: 75px;
   height: 75px;
 }
-html img {
+
+img {
   width: 50px;
   margin-top: 10px;
 }
-html .divgradiente {
+
+.divgradiente {
   text-align: left;
   margin: 40px 40px;
   font-size: 70px;
-  color: rgb(25, 73, 25);
   margin-top: 100px;
   font-family: cursive;
   position: absolute;
   display: flex;
-  color: black;
   transform: scale(0.75);
-  padding-right: 10%;
+  width: 1200px;
+  height: 300px;
 }
-html .gradiente {
-  height: 500px;
-  width: 2000px;
+
+.gradiente {
   background: rgb(211, 226, 165);
   background: radial-gradient(circle, rgb(211, 226, 165) 51%, rgb(232, 209, 232) 100%);
-  margin-left: 380px;
 }
-html .divgradiente:hover {
+
+.divgradiente:hover {
   background-color: rgb(248, 45, 26);
   transition: 10s;
 }
-html .row {
+
+.row {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 10px;
 }
-html .flexcontainer {
+
+.flexcontainer {
   display: flex;
   background-color: rgb(222, 180, 219);
   align-items: center;
@@ -174,10 +201,12 @@ html .flexcontainer {
   padding-top: 1%;
   padding-bottom: 10%;
 }
-html .hijo {
+
+.hijo {
   display: block;
 }
-html .centerr {
+
+.centerr {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 3fr 1 fr;
@@ -187,7 +216,8 @@ html .centerr {
   font-family: cursive;
   margin: 5px;
 }
-html .table {
+
+.table {
   font-size: 50px;
   font-family: Georgia, "Times New Roman", Times, serif;
   background-color: rgb(58, 69, 50);
@@ -196,16 +226,19 @@ html .table {
   padding-right: 60%;
   justify-content: space-evenly;
 }
-html .cuidados {
+
+.cuidados {
   font-size: 50px;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: justify;
 }
-html .footer {
+
+.footer {
   font-size: 55px;
   font-family: cursive;
 }
-html main {
+
+main {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -214,7 +247,8 @@ html main {
   padding-left: 80px;
   font-family: fantasy;
 }
-html .uno {
+
+.uno {
   font-size: 50px;
   text-align: justify;
   justify-content: left;
@@ -224,7 +258,8 @@ html .uno {
   background-color: blanchedalmond;
   font-family: fantasy;
 }
-html .metodos {
+
+.metodos {
   display: flex;
   font-size: 65px;
   text-align: justify;
@@ -233,14 +268,16 @@ html .metodos {
   margin-top: 5%;
   background-color: beige;
 }
-html .reproduccion {
+
+.reproduccion {
   font-size: 68px;
   padding-top: 80px;
   padding-left: 80px;
   font-family: fantasy;
   background-color: bisque;
 }
-html .repro {
+
+.repro {
   border-radius: 80px;
   padding: 5px;
   max-height: 100%;
@@ -250,7 +287,8 @@ html .repro {
   margin-right: auto;
   width: 50%;
 }
-html .bs {
+
+.bs {
   font-size: 70px;
   text-align: center;
   background-color: rgb(130, 41, 112);
@@ -258,57 +296,64 @@ html .bs {
   font-family: cursive;
   position: relative;
 }
-html h3 {
+
+h3 {
   grid-area: h3;
 }
-html .footer {
+
+.footer {
   grid-area: footer;
 }
-html .section {
+
+.section {
   grid-area: section;
 }
-html .centerr {
+
+.centerr {
   grid-area: centerr;
 }
-html .header {
+
+.header {
   grid-area: header;
 }
-html nav {
+
+nav {
   grid-area: nav;
 }
-html .grilla {
+
+.grilla {
   display: grid;
   grid-template-areas: "nav header header " "centerr section section" "centerr centerr centerr" "footer footer footer";
 }
+
 @media (min-width: 500px) {
-  html .grilla {
+  .grilla {
     margin: 0;
     grid-template-areas: "nav header header " "centerr section section" "centerr centerr centerr" "footer footer footer";
   }
 }
 @media (min-width: 760px) {
-  html .grilla {
+  .grilla {
     margin: 0;
     grid-template-areas: "nav header header " "centerr section section" "centerr centerr centerr" "footer footer footer";
   }
 }
 @media (min-width: 1024px) {
-  html body {
+  body {
     background-color: rgb(238, 224, 224);
   }
-  html .grilla {
+  .grilla {
     color: rgb(34, 15, 51);
     padding: 1.5em;
     display: flex;
     height: auto;
     margin: 0;
   }
-  html img {
+  img {
     width: 1000px;
     height: 80%;
   }
 }
-
 header {
   background-size: cover;
   font-style: italic;
@@ -413,13 +458,6 @@ section div {
   max-width: 33.33%;
   box-sizing: border-box;
   padding: 15px;
-}
-
-section div img {
-  display: block;
-  margin: auto;
-  max-width: 100%;
-  height: auto;
 }
 
 footer {
@@ -630,7 +668,7 @@ nav {
 }
 @media (min-width: 1024px) {
   body {
-    background-color: rgb(238, 224, 224);
+    background-color: rgb(239, 238, 238);
   }
   .grilla {
     color: rgb(34, 15, 51);
